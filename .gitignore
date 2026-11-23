@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python / Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Data & Cache files generated during preparation
+keywords_cache_*.jsonl
+review.csv
+data/
+
+# Model checkpoints and merged models
+adapters/
+adapters_best/
+movie-plot-model/
+*.safetensors
+train.log
